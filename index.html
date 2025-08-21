@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #Results{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 >Loan calulator</h1>
+        <form action="#">
+            <div class="row">
+            <div class="group">
+                <div class="dollar">Amount</div>
+                <input type="text" placeholder="5000"  class="amount"/>
+            </div>
+             <div class="group">
+                <div class="dollar">Interest</div>
+                <input type="text" placeholder="2"  class="amount"/>
+            </div>
+             <div class="group">
+                <div class="dollar"> LoanTerm</div>
+                <input type="text" placeholder="4"  class="amount"/>
+            </div>
+            </div>
+            
+            <button class="Calculate" type="button">Calculate</button>
+    
+            <h1>Results</h1>
+
+            <div class="group1">
+            <div class="dollar">Monthly payment</div>
+                <input type="text" placeholder="108.9"  class="monthly"/>
+                </div>
+                <div class="group1">
+            <div class="dollar">Total payment</div>
+                <input type="text" placeholder="500.9"  class="payment"/>
+                </div>
+                <div class="group1">
+            <div class="dollar">Total Interest</div>
+                <input type="text" placeholder="606.89"  class="Interst"/>
+                </div>
+               
+        </form>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
